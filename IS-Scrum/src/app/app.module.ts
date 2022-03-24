@@ -9,6 +9,7 @@ import { ScrumComponent } from './scrum/scrum.component';
 import { InformacionDesarrolladoresComponent } from './informacion-desarrolladores/informacion-desarrolladores.component';
 import { IndexComponent } from './index/index.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     ConceptosComponent,
     ScrumComponent,
     InformacionDesarrolladoresComponent,
-    IndexComponent
+    IndexComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
