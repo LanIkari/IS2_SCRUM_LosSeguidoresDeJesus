@@ -1,1 +1,82 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.button-navbar{
+  background: transparent;
+  border: none;
+}
+
+.navbar-title {
+  color: white;
+  text-decoration: none;
+  font-size: calc(1em + 1vh);
+  font-weight: bold;
+}
+
+.navbar-title:hover {
+  color: white;
+}
+
+.navbar-item {
+  color: white;
+  text-decoration: none;
+  font-size:  1.2vw;
+  margin-left: calc(2rem + 1vw);
+  margin-right: calc(2rem + 1vw);
+}
+
+.navbar-item:hover {
+  color: white;
+}
+
+@media screen and (orientation: portrait) {
+  .navbar-title {
+    color: white;
+    text-decoration: none;
+    font-size: calc(0.5em + 1vh);
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  .navbar-item {
+    color: white;
+    text-decoration: none;
+    font-size: calc(1em + 1vw);
+    margin: calc(3rem + 6vh) 0 calc(3rem + 6vh) 0;
+  }
+
+  li.nav-item {
+    margin-top: calc(1rem + 1vh);
+    margin-bottom: calc(1rem + 1vh);
+  }
+
+  ul.navbar-nav{
+    margin-top: calc(2rem + 1vh);
+  }
+
+  .container-button-responsive {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0.5vh;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-10px, 0px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-10px, 0px);
+  }
+}
