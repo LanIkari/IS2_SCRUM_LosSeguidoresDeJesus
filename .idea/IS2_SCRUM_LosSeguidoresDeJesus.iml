@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/IS-Scrum/dist" />
       <excludeFolder url="file://$MODULE_DIR$/IS-Scrum/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/IS-Scrum/.angular/cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
