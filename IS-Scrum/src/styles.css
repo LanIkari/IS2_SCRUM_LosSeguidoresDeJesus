@@ -11,7 +11,7 @@ body {
   background-color: #CDCDCD;
 }
 
-nav{
+nav {
   border-bottom: 5px solid;
   position: fixed;
   top: 0;
@@ -47,7 +47,7 @@ nav{
 }
 
 ul.dropdown-menu {
-  background-color: rgba(205,205,205,0.5);
+  background-color: rgba(205, 205, 205, 0.5);
   border: none;
 }
 
@@ -57,7 +57,7 @@ li.dropdown-item {
 }
 
 .dropdown-item:hover {
-  background-color: rgba(205,205,205,0.5);
+  background-color: rgba(205, 205, 205, 0.5);
 }
 
 .dropdown-item:active {
@@ -121,6 +121,7 @@ li.dropdown-item {
   }
 
 }
+
 .index {
   background: url("assets/Scrum_background.svg") no-repeat center fixed;
   opacity: 25%;
@@ -130,4 +131,9 @@ li.dropdown-item {
   width: 100%;
   max-height: 100%;
   max-width: 100%;
+}
+
+.container-prueba {
+  background-color: #189ab6;
+  border: 5px solid black;
 }
