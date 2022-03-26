@@ -134,12 +134,47 @@ li.dropdown-item {
 }
 
 .container-prueba {
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 3vh !important;
+  margin-bottom: 3vh !important;
   padding: 2vh 2vw 2vh 2vw;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 40px;
   align-content: center;
   text-align: center;
+}
+
+div.col-lg-12{
+  margin: auto;
+  width: 98%;
+}
+
+div.col-lg-10{
+  margin: auto;
+  width: 80%;
+}
+
+div.col-lg-6{
+  margin: auto;
+  width: 48%;
+}
+
+div.col-lg-4{
+  margin: auto;
+  width: 30%;
+}
+
+div.col-lg-3{
+  margin: auto;
+  width: 23%;
+}
+
+div.col-lg-2{
+  margin: auto;
+  width: 14%;
+}
+
+div.col-lg-1{
+  margin: auto;
+  width: 8%;
 }
