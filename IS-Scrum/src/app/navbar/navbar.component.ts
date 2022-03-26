@@ -19,6 +19,58 @@ export class NavbarComponent implements OnInit {
   }
 
   irACalidad(){
-    this.route.navigate(['calidad'])
+    this.route.navigate(['calidad']);
+  }
+
+  irAReferencias(){
+    this.route.navigate(['referencias']);
+  }
+
+  irAEstilos(){
+    this.route.navigate(['estilos']);
+  }
+
+  irAPatrones(){
+    this.route.navigate(['patrones']);
+  }
+
+  irAMetodologia(){
+    this.route.navigate(['metodologia']);
+  }
+
+  irAScrum(){
+    this.route.navigate(['que-es-scrum']);
+  }
+
+  irARoles(){
+    this.route.navigate(['roles']);
+  }
+
+  irAHerramientas(){
+    this.route.navigate(['herramientas']);
+  }
+
+  irABrandon(){
+    this.route.navigate(['brandon']);
+  }
+
+  irASaid(){
+    this.route.navigate(['said']);
+  }
+
+  irAEduardo(){
+    this.route.navigate(['eduardo']);
+  }
+
+  irAJuan(){
+    this.route.navigate(['juan']);
+  }
+
+  irAFernando(){
+    this.route.navigate(['fernando']);
+  }
+
+  irADiana(){
+    this.route.navigate(['diana']);
   }
 }
