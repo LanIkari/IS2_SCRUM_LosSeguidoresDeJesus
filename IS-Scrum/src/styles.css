@@ -120,6 +120,43 @@ li.dropdown-item {
     transform: rotate(45deg) translate(-10px, 0px);
   }
 
+
+  div.col-lg-12{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-10{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-6{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-4{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-3{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-2{
+    margin: auto;
+    width: 100% !important;
+  }
+
+  div.col-lg-1{
+    margin: auto;
+    width: 100% !important;
+  }
+
+
 }
 
 .index {
