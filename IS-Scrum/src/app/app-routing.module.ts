@@ -15,6 +15,7 @@ import {EduardoDesarrolladorComponent} from "./eduardo-desarrollador/eduardo-des
 import {JuanDesarrolladorComponent} from "./juan-desarrollador/juan-desarrollador.component";
 import {FernandoDesarrolladorComponent} from "./fernando-desarrollador/fernando-desarrollador.component";
 import {DianaDesarrolladorComponent} from "./diana-desarrollador/diana-desarrollador.component";
+import {HerramientasScrumComponent} from "./herramientas-scrum/herramientas-scrum.component";
 
 
 const routes: Routes = [
@@ -28,7 +29,7 @@ const routes: Routes = [
   {path: 'metodologia',component: MetodologiaScrumComponent},
   {path: 'que-es-scrum',component: QueEsScrumComponent},
   {path: 'roles',component: RolesScrumComponent},
-  {path: 'herramientas',component: RolesScrumComponent},
+  {path: 'herramientas',component: HerramientasScrumComponent},
   {path: 'brandon',component: BrandonDesarrolladorComponent},
   {path: 'said',component: SaidDesarrolladorComponent},
   {path: 'eduardo',component: EduardoDesarrolladorComponent},
