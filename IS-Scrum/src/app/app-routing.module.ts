@@ -26,7 +26,7 @@ const routes: Routes = [
   {path: 'estilos',component: EstilosCdComponent},
   {path: 'patrones',component: PatronesCdComponent},
   {path: 'metodologia',component: MetodologiaScrumComponent},
-  {path: 'quees',component: QueEsScrumComponent},
+  {path: 'que-es-scrum',component: QueEsScrumComponent},
   {path: 'roles',component: RolesScrumComponent},
   {path: 'herramientas',component: RolesScrumComponent},
   {path: 'brandon',component: BrandonDesarrolladorComponent},
