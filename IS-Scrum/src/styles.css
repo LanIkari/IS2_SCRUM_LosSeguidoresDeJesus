@@ -143,3 +143,8 @@ li.dropdown-item {
   align-content: center;
   text-align: center;
 }
+
+.imagen {
+  height: 90%;
+  width: 30%;
+}
