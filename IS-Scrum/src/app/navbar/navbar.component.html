@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-scrum">
   <div class="container-fluid">
 
     <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284.01 282.11" height="10vh" width="13vh">
@@ -43,19 +43,46 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="navbar-item " aria-current="page" href="teoriabasicais">Teoría Básica IS</a>
+        <li class="nav-item dropdown">
+          <a class="navbar-item" aria-current="page" href="teoriabasicais" id="menuApartado1"
+             role="button" data-bs-toggle="dropdown" aria-expanded="false">Teoría Básica IS</a>
+          <ul class="dropdown-menu" aria-labelledby="menuApartado1">
+            <li class="dropdown-item" href="#">Definiciones</li>
+            <li class="dropdown-item" href="#">Calidad dentro de la IS</li>
+            <li class="dropdown-item" href="#">Referencias Bibliografícas</li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="navbar-item " href="conceptos">Conceptos de Diseño</a>
+        <li class="nav-item dropdown">
+          <a class="navbar-item" href="conceptos" id="menuApartado2" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">Conceptos de Diseño</a>
+          <ul class="dropdown-menu" aria-labelledby="menuApartado2">
+            <li class="dropdown-item" href="#">Estilos Arquitectónicos</li>
+            <li class="dropdown-item" href="#">Patrones de Diseño</li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="navbar-item " href="scrum">Scrum</a>
+        <li class="nav-item dropdown">
+          <a class="navbar-item" href="scrum" id="menuApartado3" role="button" data-bs-toggle="dropdown"
+             aria-expanded="false">Scrum</a>
+          <ul class="dropdown-menu" aria-labelledby="menuApartado3">
+            <li class="dropdown-item" href="#">¿Que es la metodología ágil?</li>
+            <li class="dropdown-item" href="#">¿Que es Scrum?</li>
+            <li class="dropdown-item" href="#">Roles</li>
+            <li class="dropdown-item" href="#">Herramientas</li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="navbar-item " href="informaciondesarrolladores" tabindex="-1" aria-disabled="true">Desarrolladores</a>
+        <li class="nav-item dropdown">
+          <a class="navbar-item" href="informaciondesarrolladores" id="menuApartado4" role="button"
+             data-bs-toggle="dropdown" aria-expanded="false">Desarrolladores</a>
+          <ul class="dropdown-menu" aria-labelledby="menuApartado4">
+            <li class="dropdown-item" href="#">Avedaño Villegas Brandon</li>
+            <li class="dropdown-item" href="#">Hernandez Pacheco Said Alejandro</li>
+            <li class="dropdown-item" href="#">Mendieta Lozano Eduardo</li>
+            <li class="dropdown-item" href="#">Perez Angeles Juan Carlos</li>
+            <li class="dropdown-item" href="#">Perez Cuevas Fernando</li>
+          </ul>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
