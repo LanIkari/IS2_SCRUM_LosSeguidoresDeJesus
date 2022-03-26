@@ -145,6 +145,18 @@ li.dropdown-item {
 }
 
 .imagen {
+  margin-top: 3vh;
   height: 90%;
-  width: 30%;
+  width: 35%;
+}
+
+.div-info{
+  margin-top: 3vh;
+  background-color: blueviolet;
+}
+
+.div-img{
+  align-content: center;
+  display: flex;
+  margin: auto;
 }
