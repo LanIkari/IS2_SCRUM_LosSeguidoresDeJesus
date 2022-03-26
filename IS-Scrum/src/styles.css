@@ -134,7 +134,12 @@ li.dropdown-item {
 }
 
 .container-prueba {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  padding: 2vh 2vw 2vh 2vw;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 40px;
+  align-content: center;
+  text-align: center;
 }
