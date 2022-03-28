@@ -123,39 +123,49 @@ li.dropdown-item {
 
   div.col-lg-12 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-10 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-6 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-4 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-3 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-2 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
   div.col-lg-1 {
     margin: auto;
-    width: 100% !important;
+    width: 98% !important;
   }
 
+  .titulo-desarrollador {
+    font-size: 1.75em !important;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  }
 
 }
 
