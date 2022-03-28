@@ -215,3 +215,12 @@ div.col-lg-1{
   margin: auto;
   width: 8%;
 }
+
+.imagen{
+  height: 90%;
+  width: 35%;
+}
+
+.div-img{
+  justify-content: center;
+}
