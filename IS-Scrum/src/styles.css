@@ -247,3 +247,7 @@ div.col-lg-1{
 .titulo-desarrollador:hover{
   color: black;
 }
+
+.texto-referencias{
+  text-align: justify;
+}
