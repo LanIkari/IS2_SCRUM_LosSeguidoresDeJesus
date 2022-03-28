@@ -270,3 +270,12 @@ div.col-lg-1 {
 .texto-referencias {
   text-align: justify;
 }
+
+.link-inactiv{
+  text-decoration: none;
+  color: black;
+}
+
+.link-inactiv:hover{
+  color: black;
+}
