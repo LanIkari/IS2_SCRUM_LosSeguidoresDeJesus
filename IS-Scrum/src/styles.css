@@ -224,3 +224,14 @@ div.col-lg-1{
 .div-img{
   justify-content: center;
 }
+
+.container-pruebaxxx {
+  margin-top: 3vh !important;
+  margin-bottom: 3vh !important;
+  padding: 2vh 2vw 2vh 2vw;
+  background-color: transparent;
+  border: none;
+  border-radius: 40px;
+  align-content: center;
+  text-align: center;
+}
