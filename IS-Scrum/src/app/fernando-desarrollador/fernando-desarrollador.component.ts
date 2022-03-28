@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-fernando-desarrollador',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FernandoDesarrolladorComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route: Router) { }
 
   ngOnInit(): void {
   }
 
+  IraFacebook(){
+    this.route.navigate([''])
+  }
 }
