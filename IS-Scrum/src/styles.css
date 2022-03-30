@@ -289,3 +289,11 @@ div.col-lg-1 {
 .link-inactiv:hover{
   color: black;
 }
+
+ul{
+  text-align: left;
+}
+
+p.calidad-IS{
+  text-align: justify;
+}
