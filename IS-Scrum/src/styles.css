@@ -131,6 +131,11 @@ li.dropdown-item {
     width: 98% !important;
   }
 
+  div.col-lg-8 {
+    margin: auto;
+    width: 98% !important;
+  }
+
   div.col-lg-6 {
     margin: auto;
     width: 98% !important;
@@ -281,19 +286,19 @@ div.col-lg-1 {
   text-align: justify;
 }
 
-.link-inactiv{
+.link-inactiv {
   text-decoration: none;
   color: black;
 }
 
-.link-inactiv:hover{
+.link-inactiv:hover {
   color: black;
 }
 
-ul{
+ul {
   text-align: left;
 }
 
-p.calidad-IS{
+p.calidad-IS {
   text-align: justify;
 }
