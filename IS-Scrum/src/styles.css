@@ -47,7 +47,7 @@ nav {
 }
 
 ul.dropdown-menu {
-  background-color: rgba(205, 205, 205, 0.5);
+  background-color: rgba(205, 205, 205, 0.75);
   border: none;
 }
 
@@ -57,7 +57,7 @@ li.dropdown-item {
 }
 
 .dropdown-item:hover {
-  background-color: rgba(205, 205, 205, 0.5);
+  background-color: rgba(205, 205, 205, 1);
 }
 
 .dropdown-item:active {
